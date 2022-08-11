@@ -1,0 +1,20 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("TITLE", "BloodTheme")
+
+local Tab = Window:NewTab("Scripts")
+local Section = Tab:NewSection("scripts")
+
+--turtlespy
+Section:NewButton("turtlespy", "lets you see all commands run in game", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/BDhSQqUU", true))()
+end)
+
+--SPACEX
+Section:NewButton("SPACEX", "op for pvp", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood", true))()
+end)
+
+--VORTEX
+Section:NewButton("VORTEX", "op autofarm and admin room", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
+end)
